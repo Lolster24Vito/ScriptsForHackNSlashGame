@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e677773d5baf394d94c0c5e7c24821a, type: 3}
+  m_Name: New Fire Status Effect
+  m_EditorClassIdentifier: 
+  name: Fire
+  durationOfEffectInSeconds: 3
+  damageOfEffect: 1
+  dealDamageEveryAmountOfSeconds: 0.5
+  effectWhileActive: {fileID: 5033082143735989004, guid: 6f296feecc5725c41ac4bd3cd2086a72,
+    type: 3}

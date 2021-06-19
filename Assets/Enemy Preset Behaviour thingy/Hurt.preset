@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Hurt
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 91dca7dd23a55c746a0d6e2823e80234,
+      type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: timeTilNextMove
+    value: 0.34
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[0].moveParameters.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[0].moveParameters.Array.data[0].ParameterName
+    value: CircleMov
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[0].moveParameters.Array.data[0].Value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[0].moveParameters.Array.data[1].ParameterName
+    value: Attack
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[0].moveParameters.Array.data[1].Value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[0].moveParameters.Array.data[2].ParameterName
+    value: Chase
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[0].moveParameters.Array.data[2].Value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[0].moveParameters.Array.data[3].ParameterName
+    value: Idle
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[0].moveParameters.Array.data[3].Value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[0].moveParameters.Array.data[4].ParameterName
+    value: Hurt
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[0].moveParameters.Array.data[4].Value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[1].moveParameters.Array.size
+    value: 6
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[1].moveParameters.Array.data[0].ParameterName
+    value: CircleMovAway
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[1].moveParameters.Array.data[0].Value
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[1].moveParameters.Array.data[1].ParameterName
+    value: Attack
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[1].moveParameters.Array.data[1].Value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[1].moveParameters.Array.data[2].ParameterName
+    value: Idle
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[1].moveParameters.Array.data[2].Value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[1].moveParameters.Array.data[3].ParameterName
+    value: CircleMov
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[1].moveParameters.Array.data[3].Value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[1].moveParameters.Array.data[4].ParameterName
+    value: Hurt
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[1].moveParameters.Array.data[4].Value
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[1].moveParameters.Array.data[5].ParameterName
+    value: Chase
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: afterHurt.Array.data[1].moveParameters.Array.data[5].Value
+    value: 0
+    objectReference: {fileID: 0}

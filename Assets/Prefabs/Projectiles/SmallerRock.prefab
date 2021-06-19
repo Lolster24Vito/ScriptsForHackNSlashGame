@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9049627612923523084
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2447363185044959880, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_Name
+      value: SmallerRock
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959881, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 4da3b9c747aa9c643a33db41c935c63c,
+        type: 3}
+    - target: {fileID: 2447363185044959885, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 0.6875
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959885, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 0.5625
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959884, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959887, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: attackableLayer.m_Bits
+      value: 2304
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959887, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: attackableTag
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959887, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: damage
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cf029b0d468cb304faef9ac035ce2f5e, type: 3}

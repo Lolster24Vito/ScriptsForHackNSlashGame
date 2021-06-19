@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 523d61bac1d7c464ab4396ce417a1110, type: 3}
+  m_Name: CreatureGrunt
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 5fded05e9c9930f449b45a869aec34d9, type: 3}
+  - {fileID: 8300000, guid: 7778f8e0021118d4fb3d468c35207805, type: 3}
+  - {fileID: 8300000, guid: 5b30c65a1f95be14597523a4a06aebe4, type: 3}
+  - {fileID: 8300000, guid: 2846564710e2e5b4eb72efbdacbd5a66, type: 3}
+  volumeMin: 20
+  volumeMax: 50
+  pitchMinValue: 0.7
+  pitchMaxValue: 1.4

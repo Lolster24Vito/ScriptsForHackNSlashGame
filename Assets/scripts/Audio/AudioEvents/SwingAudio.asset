@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9862496bd9c5fe746aae8fc4f4b7a328, type: 3}
+  m_Name: SwingAudio
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 50ef3a2d8672c6a4fad009af86d668c8, type: 3}
+  - {fileID: 8300000, guid: 815a03df689ea27449533c4ad9180167, type: 3}
+  - {fileID: 8300000, guid: 84f01c1c643199447aad0feb49f4d59c, type: 3}
+  - {fileID: 8300000, guid: d9ae776d3be60554495d0ad06c50fa8a, type: 3}
+  - {fileID: 8300000, guid: 55d86856d306c28409a38a1782b382ed, type: 3}
+  - {fileID: 8300000, guid: 5ea7f785aee5cfb49bb86fb7ee68c237, type: 3}
+  - {fileID: 8300000, guid: d102d5d812d189943afe1045ae1844fc, type: 3}
+  volumeMin: 20
+  volumeMax: 50
+  pitchMinValue: 0.549
+  pitchMaxValue: 1.528

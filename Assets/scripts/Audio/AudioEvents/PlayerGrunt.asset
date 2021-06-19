@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 523d61bac1d7c464ab4396ce417a1110, type: 3}
+  m_Name: PlayerGrunt
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 07ab0b117568b9b45a859c0a34ab4705, type: 3}
+  - {fileID: 8300000, guid: 9fa80db629f522f4d9f2805d08dcfb6b, type: 3}
+  - {fileID: 8300000, guid: 2896411b001081a42b79d7955eabd1d3, type: 3}
+  - {fileID: 8300000, guid: c7c1566b6f0ffdd41aa386982a6b2d9e, type: 3}
+  - {fileID: 8300000, guid: bd2c924ebbe694a49afe04e5a64b0614, type: 3}
+  - {fileID: 8300000, guid: 066940a7ad616cb4d8ee40cc65ed52f2, type: 3}
+  - {fileID: 8300000, guid: 2ddad101f0d47c2429924bb856aa8a9f, type: 3}
+  - {fileID: 8300000, guid: 892c5c9a1c135404db6d90da0c30a4f4, type: 3}
+  volumeMin: 20
+  volumeMax: 50
+  pitchMinValue: 0.945
+  pitchMaxValue: 2

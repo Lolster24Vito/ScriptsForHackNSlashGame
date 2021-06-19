@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &4702166102864871689
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2447363185044959880, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_Name
+      value: RockPlayer
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959880, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_Layer
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959886, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959884, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959887, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: attackableTag
+      value: Enemy
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959887, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: damage
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959887, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: knockbackPower
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959887, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: knockbackTime
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2447363185044959887, guid: cf029b0d468cb304faef9ac035ce2f5e,
+        type: 3}
+      propertyPath: atStatusEffect
+      value: 
+      objectReference: {fileID: 11400000, guid: 6994d57e8b9e84748a8c54a5cddc3444,
+        type: 2}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: cf029b0d468cb304faef9ac035ce2f5e, type: 3}

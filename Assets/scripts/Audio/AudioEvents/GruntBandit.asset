@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 523d61bac1d7c464ab4396ce417a1110, type: 3}
+  m_Name: GruntBandit
+  m_EditorClassIdentifier: 
+  clips:
+  - {fileID: 8300000, guid: 61a5e749d64e98143a6d61e6dead5f1f, type: 3}
+  - {fileID: 8300000, guid: 95e7932b789464046a5061627d59c1a7, type: 3}
+  - {fileID: 8300000, guid: 48d5145928322f94bb2e9108ffdfdbf9, type: 3}
+  - {fileID: 8300000, guid: f78439bc82633d24592bfca163eafce5, type: 3}
+  - {fileID: 8300000, guid: 9d22a26db2b12f142b80dc92446f6006, type: 3}
+  - {fileID: 8300000, guid: 5226dda98fcc20e4488179ab6241d516, type: 3}
+  - {fileID: 8300000, guid: 9a40ba2ac8d869c48b343f632e795723, type: 3}
+  - {fileID: 8300000, guid: 653f4935cde277a4aad2b81cabd953f2, type: 3}
+  - {fileID: 8300000, guid: 3b4f599b896ff2f488f25c20be45071b, type: 3}
+  - {fileID: 8300000, guid: f244df1cd87246047b00b2197f4f493e, type: 3}
+  - {fileID: 8300000, guid: e6748360454ed194eb897f242e43e916, type: 3}
+  volumeMin: 20
+  volumeMax: 50
+  pitchMinValue: 0.101
+  pitchMaxValue: 1.704

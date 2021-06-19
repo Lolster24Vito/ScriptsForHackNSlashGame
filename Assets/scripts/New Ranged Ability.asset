@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10f82da070a26a546aa0eb9c17186143, type: 3}
+  m_Name: New Ranged Ability
+  m_EditorClassIdentifier: 
+  aName: New Ability
+  castTime: 0.25
+  abilityAnimatorParametersForCast:
+  - ParameterName: isCasting
+    Value: 1
+  abilityAnimatorParametersForOver:
+  - ParameterName: isCasting
+    Value: 0
+  attackStatusEffect: {fileID: 11400000, guid: 6994d57e8b9e84748a8c54a5cddc3444, type: 2}
+  projectile: {fileID: 6969237899533218689, guid: 09db42a44e0375f4d98e2784524d2a79,
+    type: 3}
+  abiliteffecty: {fileID: 5033082143735989004, guid: 6f296feecc5725c41ac4bd3cd2086a72,
+    type: 3}
+  projectileSpeed: 7
+  projectileDamage: 3

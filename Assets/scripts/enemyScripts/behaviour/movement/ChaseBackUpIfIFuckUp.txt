@@ -1,0 +1,132 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Chase : StateMachineBehaviour
+{
+    //Chase player script
+
+    float chaseTimer;
+
+   [SerializeField] float chaseTime;
+    [SerializeField] float speed;
+    [SerializeField] float distanceTillCharge;
+    [SerializeField] float distanceTillAttack;
+
+
+    bool firstTime = false;
+    //Bool nextMove is used to determine which move to do next
+   [SerializeField] bool nextMove;
+
+    Transform player;
+
+    Rigidbody2D rb;
+
+
+    //So this is for performance...Animator.SetBool("String") collects a lot of garbage in the memory
+    int idCharge = Animator.StringToHash("Charge");
+    int idChase = Animator.StringToHash("Chase");
+    int idIdle = Animator.StringToHash("Idle");
+    int idAttack = Animator.StringToHash("Attack");
+
+    // OnStateEnter is called when a transition starts and the state machine starts to evaluate this state
+    override public void OnStateEnter(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        //The first time bool is there as a void start function....OnStateEnter happens everytime a Animation start is played
+        if (!firstTime)
+        {
+            player = GameObject.FindGameObjectWithTag("Player").transform;
+            rb = animator.GetComponent<Rigidbody2D>();
+            firstTime = true;
+            nextMove = (Random.value > 0.5f);
+
+
+        }
+    }
+
+    // OnStateUpdate is called on each Update frame between OnStateEnter and OnStateExit callbacks
+    override public void OnStateUpdate(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+        if (chaseTimer <= 0)
+        {
+            animator.SetBool(idIdle, true);
+            animator.SetBool(idChase, false);
+            animator.SetBool(idCharge, false);
+            animator.SetBool(idAttack, false);
+
+            chaseTimer = chaseTime;
+            firstTime = false;
+
+        }
+        else
+        {
+            //FLIP the sprite towards the player
+          /*  Vector3 dirToPlayer = (player.position - animator.transform.position).normalized;
+            if ((dirToPlayer.x<0&&animator.transform.lossyScale.x>0)|| (dirToPlayer.x > 0 && animator.transform.lossyScale.x < 0))
+            {
+                animator.transform.localScale = new Vector3(animator.transform.lossyScale.x * -1, animator.transform.lossyScale.y, animator.transform.lossyScale.z);
+            }
+            */
+
+            chaseTimer -= Time.deltaTime;
+            Vector2 moveToPos= Vector2.MoveTowards(animator.transform.position, player.position, speed * Time.deltaTime);
+            rb.MovePosition(moveToPos);
+
+            if (nextMove)
+            {
+                if (Vector2.Distance(player.position, animator.transform.position) < distanceTillCharge)
+                {
+                    firstTime = false;
+                    chaseTimer = chaseTime;
+                    animator.SetBool(idChase, false);
+                    animator.SetBool(idIdle, false);
+                    animator.SetBool(idAttack, false);
+                    animator.SetBool(idCharge, true);
+                    animator.GetComponent<gnome>().getDirToPlayer();
+                }
+            }
+            if (!nextMove)
+            {
+                if (Vector2.Distance(player.position, animator.transform.position) < distanceTillAttack)
+                {
+
+                    firstTime = false;
+                    chaseTimer = chaseTime;
+                    animator.SetBool(idChase, false);
+                    animator.SetBool(idIdle, false);
+                    animator.SetBool(idCharge, false);
+                    animator.SetBool(idAttack, true);
+
+                }
+            }
+        }
+        if (Input.GetKeyDown(KeyCode.L))
+        {
+            firstTime = false;
+            chaseTimer = chaseTime;
+            animator.SetBool(idChase, false);
+            animator.SetBool(idIdle, false);
+            animator.SetBool(idCharge, true);
+
+        }
+
+    }
+   
+    // OnStateExit is called when a transition ends and the state machine finishes evaluating this state
+    override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    {
+
+    }
+
+    // OnStateMove is called right after Animator.OnAnimatorMove()
+    //override public void OnStateMove(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    //{
+    //    // Implement code that processes and affects root motion
+    //}
+
+    // OnStateIK is called right after Animator.OnAnimatorIK()
+    //override public void OnStateIK(Animator animator, AnimatorStateInfo stateInfo, int layerIndex)
+    //{
+    //    // Implement code that sets up animation IK (inverse kinematics)
+    //}
+}
